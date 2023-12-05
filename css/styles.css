@@ -1,12 +1,12 @@
 body {
-  font-family: "Roboto", sans-serif; 
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
   /* Default values */
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
- }
+}
 
 a:link {
   text-decoration: none;
@@ -30,18 +30,18 @@ h2 {
 /* Nav */
 .nav {
   color: var(--NAVY-BLUE, #2e2f42);
- 
+
   /* Body Medium */
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
 /* Navigation*/
-.lodo {
-     font-family: Raleway, sans-serif;
-     font-weight: 700;
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 18px;
-   line-height: 1.17;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   justify-content: center;
@@ -56,7 +56,7 @@ h2 {
   line-height: 21px; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  }
+}
 
 .link {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -71,8 +71,8 @@ h2 {
 
 .link:active {
   color: var(--OCEAN, #404bbf);
-    flex-shrink: 0;
- }
+  flex-shrink: 0;
+}
 
 .address {
   color: var(--SLATE, #434455);
@@ -100,7 +100,7 @@ h2 {
 /* section1 */
 .section-list {
   background: var(--NAVY-BLUE, #2e2f42);
-   flex-shrink: 0;
+  flex-shrink: 0;
 }
 .title-main {
   color: #fff;
@@ -112,11 +112,11 @@ h2 {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  }
+}
 
 .button {
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -133,8 +133,8 @@ button: :active {
 
 /* section2 */
 .section2 {
-   flex-shrink: 0;
-   }
+  flex-shrink: 0;
+}
 
 h3 {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -148,15 +148,15 @@ h3 {
   width: 264px;
 }
 
-.title-advant{
-    color: #2E2F42;
+.title-advant {
+  color: #2e2f42;
 
-    /* Header 3 */
-    font-family: Roboto;
-    font-size: 20px;
-       font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02;
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02;
 }
 .list-text {
   color: #434455;
@@ -166,9 +166,9 @@ h3 {
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
- }
+}
 .section-portfolio {
-   flex-shrink: 0;
+  flex-shrink: 0;
   background-color: #f4f4fd;
 }
 
@@ -184,35 +184,34 @@ h3 {
   text-transform: capitalize;
 }
 /* section3 */
-.section-portfolio{
-
+.section-portfolio {
 }
 
 .list-our-team {
-      background: var(--WHITE, #fff);
-       }
+  background: var(--WHITE, #fff);
+}
 
-       h3 {
-        color: #2e2f42;
-        text-align: center;
-      
-        /* Header 3 */
-        font-family: Roboto;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        /letter-spacing: 0.02;
-      }
-    
+h3 {
+  color: #2e2f42;
+  text-align: center;
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  /letter-spacing: 0.02;
+}
+
 .list-our-team-name {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-  }
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 /* section4 */
 .section4 {
-    flex-shrink: 0;
+  flex-shrink: 0;
 }
 .title-our-portfolio {
   color: #2e2f42;
@@ -257,15 +256,14 @@ h3 {
   flex-shrink: 0;
 }
 
-.list-text{
-    letter-spacing: 0.02
+.list-text {
+  letter-spacing: 0.02;
 }
 
 /* footer */
 .footer {
-   flex-shrink: 0;
+  flex-shrink: 0;
   background-color: #2e2f42;
-
 }
 .lodo-footer {
   color: #4d5ae5;
