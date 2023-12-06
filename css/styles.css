@@ -15,28 +15,39 @@ a:link {
 ul.a {
   list-style-position: outside;
 }
+
+ul,
+ol {
+  list-style-type: none;
+}
+
 h2 {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
-
-  /* Header 2 */
   font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-/* Nav */
+/* Header*/
 .nav {
   color: var(--NAVY-BLUE, #2e2f42);
-
-  /* Body Medium */
   font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-/* Navigation*/
+
+.list-item {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -53,47 +64,44 @@ h2 {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .link {
-  color: var(--NAVY-BLUE, #2e2f42);
-
-  /* Body Medium */
+  color: #2e2f42;
   font-family: Roboto;
 }
 
 .link:hover {
-  color: var(--OCEAN, #404bbf);
+  color: #404bbf;
 }
 
 .link:active {
-  color: var(--OCEAN, #404bbf);
+  color: #404bbf;
   flex-shrink: 0;
 }
 
 .address {
   color: var(--SLATE, #434455);
-
-  /* Body */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 .list-adress {
   color: var(--SLATE, #434455);
-
-  /* Body */
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .list-adress:hover {
+  color: #404bbf;
+}
+.list-adress:focus {
   color: #404bbf;
 }
 
@@ -105,8 +113,6 @@ h2 {
 .title-main {
   color: #fff;
   text-align: center;
-
-  /* Header 1 */
   font-family: Roboto;
   font-size: 56px;
   font-weight: 700;
@@ -127,7 +133,7 @@ h2 {
 .button:hover {
   background-color: #404bbf;
 }
-button: :active {
+button:active {
   background-color: #404bbf;
 }
 
@@ -138,34 +144,28 @@ button: :active {
 
 h3 {
   color: var(--NAVY-BLUE, #2e2f42);
-
-  /* Header 3 */
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px; /* 120% */
-  letter-spacing: 0.4px;
-  width: 264px;
-}
-
-.title-advant {
-  color: #2e2f42;
-
-  /* Header 3 */
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
+}
+
+.title-advant {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .list-text {
   color: #434455;
-  /* Body */
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .section-portfolio {
   flex-shrink: 0;
@@ -175,8 +175,6 @@ h3 {
 .title-team {
   color: #2e2f42;
   text-align: center;
-
-  /* Header 2 */
   font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
@@ -194,13 +192,11 @@ h3 {
 h3 {
   color: #2e2f42;
   text-align: center;
-
-  /* Header 3 */
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  /letter-spacing: 0.02;
+  letter-spacing: 0.02;
 }
 
 .list-our-team-name {
@@ -216,25 +212,21 @@ h3 {
 .title-our-portfolio {
   color: #2e2f42;
   text-align: center;
-
-  /* Header 2 */
   font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11; /* 111.111% */
-  letter-spacing: 0.02;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
 .title-our-portfolio-h {
   color: #2e2f42;
-
-  /* Header 3 */
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 
 .text-our-team {
@@ -244,16 +236,7 @@ h3 {
 }
 
 .list-portfolio {
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: #fff;
-  display: flex;
-  width: 360px;
-  height: 420px;
-  padding-bottom: 32px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  flex-shrink: 0;
 }
 
 .list-text {
@@ -287,11 +270,9 @@ h3 {
 
 .list-text {
   color: #f4f4fd;
-
-  /* Body */
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
