@@ -47,8 +47,8 @@ h2 {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.list-item:hover{
-    color: #404bbf;
+.list-item:hover {
+  color: #404bbf;
 }
 
 .logo {
@@ -168,7 +168,7 @@ h3 {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.02em;с
+  letter-spacing: 0.02em;
 }
 .section-portfolio {
   flex-shrink: 0;
